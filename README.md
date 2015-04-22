@@ -1,0 +1,1 @@
+# GoogleCharts.class.php
