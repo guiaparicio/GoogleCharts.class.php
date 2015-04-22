@@ -1,12 +1,11 @@
 <?php
 
     /*
-        CLASSE:         GoogleCharts
-        FUNCAO:         O componente GoogleCharts foi desenvolvido para dinamizar o processo de utilização da API do gerador de gráficos do Google.
-        PROGRAMADA POR: Guilherme Pacheco Aparício - Email: guiaparicio@gmail.com
-        CRIADA EM:      17/04/2015
-        VERSAO:         1.0.0
-        DOCUMENTACAO:   http://172.16.1.9/wikihcb/index.php/GoogleCharts
+        CLASS:         GoogleCharts
+        FUNCTION:      Class to use Google Charts API.
+        DEVELOPER:     Guilherme Pacheco Aparício - Email: guiaparicio@gmail.com
+        CREATION DATE: 17/04/2015
+        VERSION:       1.0.0
     */
 
     class GoogleCharts {
