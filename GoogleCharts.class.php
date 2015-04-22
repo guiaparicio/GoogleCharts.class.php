@@ -2,7 +2,7 @@
 
     /*
         CLASS:         GoogleCharts
-        FUNCTION:      Class to use Google Charts API.
+        FUNCTION:      Class to use Google Charts API
         DEVELOPER:     Guilherme Pacheco Aparício - Email: guiaparicio@gmail.com
         CREATION DATE: 17/04/2015
         VERSION:       1.0.0
