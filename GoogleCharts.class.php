@@ -48,7 +48,7 @@
 
         #### DRAWS THE CHART ####
 
-            public function draw($div, Array $options = array()){
+            public function draw($div, Array $options = null){
 
                 $output = '';
 
