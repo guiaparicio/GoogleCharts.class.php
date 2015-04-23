@@ -32,7 +32,7 @@ Simple class to generate graphics with the Google Chart API.
         include('Classes/autoload.php');
         
         // PIE EXAMPLE
-        $chart = new GoogleCharts('PieChart');
+        GoogleCharts = new GoogleCharts('PieChart');
     
         $data = array(
             array('mushrooms', 'slices'),
@@ -41,10 +41,10 @@ Simple class to generate graphics with the Google Chart API.
             array('Item3', 4)
         );
         
-        $chart->load($data, 'array');
+        GoogleCharts->load($data, 'array');
     
         $options = array('title' => 'This is the graph title', 'is3D' => true, 'width' => 500, 'height' => 400);
-        echo $chart->draw('graph', $options);
+        echo GoogleCharts->draw('graph', $options);
         
     ?>
 
