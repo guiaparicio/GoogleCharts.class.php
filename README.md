@@ -86,7 +86,7 @@ Simple class to generate graphics with the Google Chart API.
         
         $GoogleCharts->load(json_encode($data));
     
-        $options = array('title' => 'revenue', 'theme' => 'maximized', 'width' => 500, 'height' => 200);
+        $options = array('title' => 'This is the graph title', 'theme' => 'maximized', 'width' => 500, 'height' => 200);
         echo $GoogleCharts->draw('line', $options);
 
     ?>
