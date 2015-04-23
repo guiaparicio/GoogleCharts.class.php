@@ -1,3 +1,18 @@
 # GoogleCharts.class.php
 
-Example:
+## Charts types
+
+* AreaChart
+* BarChart
+* BubbleChart
+* CandlestickChart
+* ColumnChart
+* ComboChart
+* Gauge
+* GeoChart
+* LineChart
+* PieChart
+* ScatterChart
+* SteppedAreaChart
+* Table
+* TreeMap
