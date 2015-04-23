@@ -1,4 +1,5 @@
 # GoogleCharts.class.php
+Simple class to generate graphics with the Google Chart API.
 
 ## Charts types
 
