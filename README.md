@@ -17,3 +17,7 @@ Simple class to generate graphics with the Google Chart API.
 * SteppedAreaChart
 * Table
 * TreeMap
+
+## Example
+Insert code before the tag closing</head>
+
