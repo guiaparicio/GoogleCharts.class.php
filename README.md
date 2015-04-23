@@ -44,14 +44,14 @@ Simple class to generate graphics with the Google Chart API.
         $chart->load($data, 'array');
     
         $options = array('title' => 'This is the graph title', 'is3D' => true, 'width' => 500, 'height' => 400);
-        echo $chart->draw('pizza', $options);
+        echo $chart->draw('graph', $options);
         
     ?>
 
 </head>
 <body>
 
-<div id="pizza"></div>
+    <div id="graph"></div>
 
 </body>
 </html>
