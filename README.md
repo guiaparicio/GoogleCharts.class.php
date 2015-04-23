@@ -75,12 +75,12 @@ Simple class to generate graphics with the Google Chart API.
                 array('id' => '', 'label' => 'Numbers', 'type' => 'number')
             ),
             'rows' => array(
-                array('c' => array(array('v' => '2010'), array('v' => 'Bugatti Veyron'), array('v' => 100))),
-                array('c' => array(array('v' => '2011'), array('v' => 'Ferrari Enzo'), array('v' => 50))),
-                array('c' => array(array('v' => '2012'), array('v' => 'Camaro SS'), array('v' => 200))),
-                array('c' => array(array('v' => '2013'), array('v' => 'Lamborghini Aventador'), array('v' => 100))),
-                array('c' => array(array('v' => '2014'), array('v' => 'Lamborghini Veneno'), array('v' => 600))),
-                array('c' => array(array('v' => '2015'), array('v' => 'Hennessey Venom GT'), array('v' => 400)))
+                array('c' => array(array('v' => '2010'), array('v' => 80), array('v' => 100))),
+                array('c' => array(array('v' => '2011'), array('v' => 40), array('v' => 50))),
+                array('c' => array(array('v' => '2012'), array('v' => 60), array('v' => 200))),
+                array('c' => array(array('v' => '2013'), array('v' => 102), array('v' => 100))),
+                array('c' => array(array('v' => '2014'), array('v' => 400), array('v' => 600))),
+                array('c' => array(array('v' => '2015'), array('v' => 300), array('v' => 400)))
             )
         );
         
