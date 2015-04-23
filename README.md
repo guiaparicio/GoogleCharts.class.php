@@ -71,16 +71,16 @@ Simple class to generate graphics with the Google Chart API.
         $data = array(
             'cols' => array(
                 array('id' => '', 'label' => 'Year', 'type' => 'string'),
-                array('id' => '', 'label' => 'Net income', 'type' => 'number'),
-                array('id' => '', 'label' => 'Revenue', 'type' => 'number')
+                array('id' => '', 'label' => 'Car', 'type' => 'string'),
+                array('id' => '', 'label' => 'Numbers', 'type' => 'number')
             ),
             'rows' => array(
-                array('c' => array(array('v' => '1990'), array('v' => 150), array('v' => 100))),
-                array('c' => array(array('v' => '1995'), array('v' => 300), array('v' => 50))),
-                array('c' => array(array('v' => '2000'), array('v' => 180), array('v' => 200))),
-                array('c' => array(array('v' => '2005'), array('v' => 400), array('v' => 100))),
-                array('c' => array(array('v' => '2010'), array('v' => 300), array('v' => 600))),
-                array('c' => array(array('v' => '2015'), array('v' => 350), array('v' => 400)))
+                array('c' => array(array('v' => '2010'), array('v' => 'Bugatti Veyron'), array('v' => 100))),
+                array('c' => array(array('v' => '2011'), array('v' => 'Ferrari Enzo'), array('v' => 50))),
+                array('c' => array(array('v' => '2012'), array('v' => 'Camaro SS'), array('v' => 200))),
+                array('c' => array(array('v' => '2013'), array('v' => 'Lamborghini Aventador'), array('v' => 100))),
+                array('c' => array(array('v' => '2014'), array('v' => 'Lamborghini Veneno'), array('v' => 600))),
+                array('c' => array(array('v' => '2015'), array('v' => 'Hennessey Venom GT'), array('v' => 400)))
             )
         );
         
