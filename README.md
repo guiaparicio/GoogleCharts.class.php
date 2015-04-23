@@ -31,8 +31,7 @@ Simple class to generate graphics with the Google Chart API.
     
         include('Classes/autoload.php');
         
-        // PIECHART EXAMPLE
-        GoogleCharts = new GoogleCharts('PieChart');
+        $GoogleCharts = new GoogleCharts('PieChart');
     
         $data = array(
             array('mushrooms', 'slices'),
@@ -41,10 +40,10 @@ Simple class to generate graphics with the Google Chart API.
             array('Item3', 4)
         );
         
-        GoogleCharts->load($data, 'array');
+        $GoogleCharts->load($data, 'array');
     
         $options = array('title' => 'This is the graph title', 'is3D' => true, 'width' => 500, 'height' => 400);
-        echo GoogleCharts->draw('pie', $options);
+        echo $GoogleCharts->draw('pie', $options);
         
     ?>
 
@@ -67,8 +66,7 @@ Simple class to generate graphics with the Google Chart API.
 
         include('Classes/autoload.php');
     
-        // demonstration of a line chart and formatted array
-        $chart = new GoogleCharts('LineChart');
+        $GoogleCharts = new GoogleCharts('LineChart');
     
         $data = array(
             'cols' => array(
@@ -86,10 +84,10 @@ Simple class to generate graphics with the Google Chart API.
             )
         );
         
-        $chart->load(json_encode($data));
+        $GoogleCharts->load(json_encode($data));
     
         $options = array('title' => 'revenue', 'theme' => 'maximized', 'width' => 500, 'height' => 200);
-        echo $chart->draw('line', $options);
+        echo $GoogleCharts->draw('line', $options);
 
     ?>
 
