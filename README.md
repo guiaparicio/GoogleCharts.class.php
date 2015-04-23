@@ -53,7 +53,7 @@ Simple class to generate graphics with the Google Chart API.
 </body>
 </html>
 ```
-[DEMO](https://guilhermeaparicio.com.br/github/GoogleCharts.class.php/PieChart.php)
+[DEMO](http://guilhermeaparicio.com.br/github/GoogleCharts.class.php/PieChart.php)
 
 ## Example LineChart
 
@@ -99,4 +99,4 @@ Simple class to generate graphics with the Google Chart API.
 </body>
 </html>
 ```
-[DEMO](https://guilhermeaparicio.com.br/github/GoogleCharts.class.php/LineChart.php)
+[DEMO](http://guilhermeaparicio.com.br/github/GoogleCharts.class.php/LineChart.php)
