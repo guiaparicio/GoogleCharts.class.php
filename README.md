@@ -29,7 +29,7 @@ Simple class to generate graphics with the Google Chart API.
 
     <?php
     
-        include('Classes/autoload.php');
+        include('GoogleCharts.class.php');
         
         $GoogleCharts = new GoogleCharts('PieChart');
     
@@ -64,7 +64,7 @@ Simple class to generate graphics with the Google Chart API.
 
     <?php
 
-        include('Classes/autoload.php');
+        include('GoogleCharts.class.php');
     
         $GoogleCharts = new GoogleCharts('LineChart');
     
