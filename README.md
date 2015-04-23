@@ -71,8 +71,8 @@ Simple class to generate graphics with the Google Chart API.
         $data = array(
             'cols' => array(
                 array('id' => '', 'label' => 'Year', 'type' => 'string'),
-                array('id' => '', 'label' => 'Car', 'type' => 'string'),
-                array('id' => '', 'label' => 'Numbers', 'type' => 'number')
+                array('id' => '', 'label' => 'item1', 'type' => 'number'),
+                array('id' => '', 'label' => 'item2', 'type' => 'number')
             ),
             'rows' => array(
                 array('c' => array(array('v' => '2010'), array('v' => 80), array('v' => 100))),
