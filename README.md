@@ -26,9 +26,9 @@ Simple class to generate graphics with the Google Chart API.
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>GoogleCharts.class.php Example</title>
-    
-    <?php
 
+    <?php
+    
         include('Classes/autoload.php');
         
         // PIE EXAMPLE
@@ -50,9 +50,7 @@ Simple class to generate graphics with the Google Chart API.
 
 </head>
 <body>
-
     <div id="graph"></div>
-
 </body>
 </html>
 ```
