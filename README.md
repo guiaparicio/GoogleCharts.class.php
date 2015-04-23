@@ -28,7 +28,6 @@ Simple class to generate graphics with the Google Chart API.
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>PHP class for Google Chart Tools</title>
     
-    ```php
     <?php
 
     include('Classes/autoload.php');
